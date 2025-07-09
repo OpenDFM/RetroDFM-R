@@ -1,0 +1,10 @@
+datasets
+flash-attn==2.6.3
+huggingface-hub==0.26.5
+numpy
+rdkit==2024.3.2
+tokenizers>=0.21.0
+torch==2.4.0
+tqdm
+transformers
+vllm==0.6.2
