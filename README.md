@@ -17,7 +17,7 @@ This repository contains the code and resources for "Reasoning-Driven Retrosynth
 - [2025-07-23] The paper of RetroDFM-R is available on arXiv: [Reasoning-Driven Retrosynthesis Prediction with Large Language Models via Reinforcement Learning](https://arxiv.org/abs/2507.17448).
 
 
-## Setup
+## 🛠️ Setup
 
 ### Training Environment
 
@@ -63,7 +63,7 @@ All data used in this work are sourced from publicly accessible datasets:
 We provide the processed test data on Hugging Face:
 [https://huggingface.co/datasets/OpenDFM/retrodfm-R-inference](https://huggingface.co/datasets/OpenDFM/retrodfm-R-inference)
 
-## Training
+## 🏋️‍♂️ Training
 
 Ensure your Docker container is successfully launched before initiating training.
 
@@ -93,7 +93,7 @@ Then, execute the following training script:
         bash examples/scripts/train_dapo_retrodfm_R_full.sh
         ```
 
-## Inference
+## 🚀 Inference
 
 After downloading the processed test data (as mentioned in Data Preparation), you can run the inference script. The following command will perform inference using beam search and test augmentation:
 
@@ -102,7 +102,7 @@ conda activate retrodfmR
 cd inference && bash eval.sh
 ```
 
-## Citation
+## 📖 Citation
 
 Please cite our paper if you find our work useful:
 
