@@ -1,6 +1,21 @@
-# Reasoning-Driven Retrosynthesis Prediction with Large Language Models via Reinforcement Learning
+# RetroDFM-R: Reasoning-Driven Retrosynthesis Prediction with Large Language Models via Reinforcement Learning
+
+<div align="center" style="line-height: 1;">
+ 
+[![Paper](https://img.shields.io/badge/PAPER-red?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.17448)
+[![GitHub](https://img.shields.io/badge/GITHUB-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OpenDFM/RetroDFM-R) 
+[![Model](https://img.shields.io/badge/MODEL-yellow?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/OpenDFM/RetroDFM-R-8B)
+[![License](https://img.shields.io/badge/LICENSE-green?style=for-the-badge&logo=open-source-initiative&logoColor=white)](https://github.com/OpenDFM/RetroDFM-R/blob/main/LICENSE)
+
+</div>
 
 This repository contains the code and resources for "Reasoning-Driven Retrosynthesis Prediction with Large Language Models via Reinforcement Learning," which introduces RetroDFM-R.
+
+## 🔥News
+
+- [2025-11-22] We released the parameters of RetroDFM-R-8B on [🤗 Hugging Face](https://huggingface.co/OpenDFM/RetroDFM-R-8B).
+- [2025-07-23] The paper of RetroDFM-R is available on arXiv: [Reasoning-Driven Retrosynthesis Prediction with Large Language Models via Reinforcement Learning](https://arxiv.org/abs/2507.17448).
+
 
 ## Setup
 
@@ -85,4 +100,20 @@ After downloading the processed test data (as mentioned in Data Preparation), yo
 ```bash
 conda activate retrodfmR
 cd inference && bash eval.sh
+```
+
+## Citation
+
+Please cite our paper if you find our work useful:
+
+```bibtex
+@misc{zhang2025retrodfmr,
+  title={Reasoning-Driven Retrosynthesis Prediction with Large Language Models via Reinforcement Learning},
+  author={Zhang, Situo and Li, Hanqi and Chen, Lu and Zhao, Zihan and Lin, Xuanze and Zhu, Zichen and Chen, Bo and Chen, Xin and Yu, Kai},
+  year={2025},
+  eprint={2507.17448},
+  archivePrefix={arXiv},
+  primaryClass={cs.CE},
+  url={https://arxiv.org/abs/2507.17448}, 
+}
 ```
